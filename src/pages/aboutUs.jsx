@@ -23,6 +23,7 @@ function AboutUs() {
             alt=""
           />
         </div>
+        <p>hello</p>
       </div>
     </div>
   );
