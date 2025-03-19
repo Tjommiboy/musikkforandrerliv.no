@@ -1,23 +1,55 @@
 @import "tailwindcss";
 
 @theme {
-    --color-sunset-red: #EE6352;
-    --color-primary-green: #5B8E7D;
-    --color-mint-green: #b2cac2;
-    --color-ivory-beige: #F8EED1;
-    --color-dark-green: #363732;
-    --color-alt-red: #81362C;
-    --color-alt-forest-green: #304B42;
-    --color-alt-light-red: #F1DBD3;
-    --color-light-red: #FCE2DB;
-    --color-hover-red: #F28077;
-    --color-alt-hover-red: #be4e43;
-    --color-light-green: #B2CAC2;
-    --color-dark-charcoal: #333333;
-    --color-cerebral-grey: #CCCCCC;
-    --color-custom-gray: rgba(54, 55, 50, 1);
-    --font-sans: Montserrat, sans-serif;
-    --font-justAnotherHand: "Just Another Hand", sans-serif;
-    --font-inter: Inter, sans-serif;
-  }
-  
+  --color-sunset-red: #ee6352;
+  --color-primary-green: #5b8e7d;
+  --color-mint-green: #b2cac2;
+  --color-ivory-beige: #f8eed1;
+  --color-dark-green: #363732;
+  --color-alt-red: #81362c;
+  --color-alt-forest-green: #304b42;
+  --color-alt-light-red: #f1dbd3;
+  --color-light-red: #fce2db;
+  --color-hover-red: #f28077;
+  --color-alt-hover-red: #be4e43;
+  --color-light-green: #b2cac2;
+  --color-dark-charcoal: #333333;
+  --color-cerebral-grey: #cccccc;
+  --color-custom-gray: rgba(54, 55, 50, 1);
+  --font-sans: Montserrat, sans-serif;
+  --font-justAnotherHand: "Just Another Hand", sans-serif;
+  --font-inter: Inter, sans-serif;
+}
+
+body {
+  background-color: #f8f8ff;
+}
+.container {
+  max-width: 960px;
+}
+
+h1 {
+  font-family: "freeman";
+  font-size: 64px;
+  font-weight: 400;
+}
+.description {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+.readMoreButton {
+  width: 147px;
+  height: 57px;
+  border: 1px solid;
+  color: #000000;
+  border-radius: 9px;
+  align-item: center;
+}
+.aboutImages {
+  width: 960px;
+  height: 697.73px;
+  object-fit: cover;
+}
